@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap');
+* {
+    font-family: 'Cairo', sans-serif;
+}
+
+body {
+    direction: rtl;
+}
+
+.navbar-light .navbar-toggler {
+    margin-right: 11px;
+}
+
+.heading,
+.sizes-large,
+.color-size,
+.all-buttons .sub-cat-menu .sub-cat-menu-btn,
+.shopping-categories .group-list .list-categories .shopping_button .shopping-title,
+.product-sidebar .total .totals-item .total-heading,
+.product-sidebar .total .totals-item .totals-value,
+.promo .promo-head,
+.promo-head,
+.discount span,
+.chekout .all-checkout-total,
+.product-sidebar .chekout .check-btn,
+.order-number,
+.title-product .name-product span,
+.modal-dialog .modal-content .products-info p,
+.products-colors .name-color h6,
+.products-colors .name-size h6,
+#add-products,
+.products-size-color-price .products-size-color-price-total .total-heading,
+.input-search .input-text::placeholder,
+.input-search .input-text,
+.input-search .input-text::-webkit-input-placeholder,
+.select-branch .dropdown .dropdown-label,
+.select-branch .dropdown .dropdown-list,
+.login-side .login-heading,
+.login-side label,
+.footer-login p,
+.carousel-side .carousel-inner .carousel-item .carousel-content .carousel-paragraph,
+.login-side form .footer-login {
+    font-family: cairo !important;
+}
+
+.select-branch .dropdown.on .dropdown-list {
+    text-align: right !important;
+}
+
+.input-search .input-text {
+    width: 93%;
+    margin-right: 5px;
+}
+
+.input-search.search-products {
+    margin-left: 15px;
+}
+
+.all-search-input,
+.input-search.search-products,
+.select-branch {
+    margin-right: 0 !important;
+}
+
+.input-search .input-text::-webkit-input-placeholder {
+    text-align: right;
+}
+
+.input-search .input-text::-moz-placeholder {
+    text-align: right;
+}
+
+.input-search .input-text:-ms-input-placeholder {
+    text-align: right;
+}
+
+.input-search .input-text::-ms-input-placeholder {
+    text-align: right;
+}
+
+.input-search .input-text::placeholder {
+    text-align: right;
+}
+
+.input-search .input-btn-search {
+    float: left;
+}
+
+.shopping-categories .group-list .list-categories {
+    margin-left: 20.3px !important;
+    margin-right: 0 !important;
+}
+
+.shopping-categories .group-list .list-categories:first-child {
+    /* padding-right: 6px; */
+    padding-left: 0 !important;
+}
+
+.all-buttons .sub-cat-menu {
+    margin-right: 0 !important;
+    margin-left: 25.3px !important;
+}
+
+.food-card {
+    margin-left: 15px;
+    margin-right: 3px;
+}
+
+.modal-dialog .modal-content .modal-header .order-img img {
+    -webkit-transform: translate(-75%, -56%);
+    -ms-transform: translate(-75%, -56%);
+    transform: translate(-75%, -56%);
+}
+
+.modal-footer .products-size-color-price {
+    direction: ltr;
+}
+
+.modal.modal-right .modal-heading {
+    text-align: right;
+    width: 109px;
+}
+
+.order-number {
+    text-align: right;
+}
+
+.product-sidebar {
+    border-right: 1px solid var(--logo-placeholder-font-color);
+    border-left: none;
+}
+
+.product {
+    border: none;
+    margin-right: 10px;
+    margin-left: 0 !important;
+    border-radius: 0 4px 4px 0 !important;
+}
+
+.add-customer .input-search .option-input:checked::after {
+    -webkit-transform: translate(-14%, 7%) !important;
+    -ms-transform: translate(-14%, 7%) !important;
+    transform: translate(-14%, 7%) !important;
+}
+
+.option-input:checked::after {
+    -webkit-transform: translate(-9%, -15%) !important;
+    -ms-transform: translate(-9%, -15%) !important;
+    transform: translate(-9%, -15%) !important;
+}
+
+.product .quan-salary .quant .minus .fa-minus {
+    margin-left: 0 !important;
+    margin-right: 3px;
+}
+
+.navbar {
+    direction: ltr;
+}
+
+.product-card {
+    height: calc(100vh - 297px);
+}
+
+.product .quan-salary .quant .qt {
+    margin-right: 5px;
+}
+
+.all-checkout-total {
+    direction: ltr;
+}
+
+.product-sidebar .close-customer-add-responsive {
+    right: 105%;
+}
+
+.login-side,
+.carousel-side,
+.login-side label,
+.footer-login p,
+.login-side .login-content form .form-check .option-input {
+    float: right;
+}
+
+.login-side .login-content form .form-check .option-input {
+    margin-left: 9px;
+    margin-top: 3px;
+}
+
+.login-side form .check-login {
+    margin-bottom: 60px;
+}
+
+.login-side form .check-login .forget-password-login,
+.footer-login a {
+    float: left;
+}
+
+.footer-login a {
+    margin-right: 5px;
+}
+
+.product-sidebar .chekout .check-btn {
+    direction: ltr;
+}
+
+.promo .promo-txt {
+    margin-left: 0 !important;
+}
+
+.promo .promo-txt {
+    margin-right: .5rem !important;
+}
+
+.promo .promo-input {
+    margin-right: 0 !important;
+}
+
+.promo .promo-input {
+    margin-left: 7px;
+}
+
+.discount span {
+    float: right !important;
+    margin-right: 13px;
+}
+
+.products-colors .name-color h6,
+.products-colors .name-size h6 {
+    text-align: right !important;
+}
+
+.products-size-color-price {
+    direction: ltr;
+}
+
+.modal-dialog .modal-content .products-info p {
+    text-align: right;
+}
+
+.products-colors .sizes-check {
+    text-align: center;
+}
+
+.colors-check .all-colors:first-child {
+    margin-right: 0 !important;
+}
+
+.sizes-check .all-sizes .size-head,
+.products-increase .sizes-check .size-head {
+    text-align: right;
+    margin-left: 4px;
+}
+
+.product_content .price-products {
+    margin-left: 0 !important;
+    margin-right: 13px !important;
+}
+
+.product_card .inner .product_img {
+    width: 40%;
+    float: right;
+}
+
+.heading,
+.sizes-large {
+    text-align: right !important;
+}
+
+.login-lang {
+    float: right !important;
+    margin-right: 13%;
+}
+
+.login-content .img-system {
+    float: right;
+}
+
+.login-side .login-content {
+    -webkit-transform: translateY(17%);
+    -ms-transform: translateY(17%);
+    transform: translateY(17%);
+}
+
+.login-side .login-content form {
+    margin-top: 70px;
+}
+
+.login-side form .footer-login {
+    width: 45% !important;
+}
+
+.promo .discount-check {
+    margin-right: 7px !important;
+}
+
+.product .product-details a {
+    text-align: right !important;
+    float: right;
+}
+
+.product .product-details .size {
+    text-align: right;
+}
+
+.quan-salary {
+    margin-left: 13px;
+    margin: 0 !important;
+}
+
+.product .quan-salary .quant {
+    margin-top: 10px !important;
+}
+
+.product .quan-salary .quant .qt {
+    width: 30px !important;
+}
+
+.product .quan-salary .quant .minus {
+    padding: 0px 3.5px;
+}
+
+.product .quan-salary .quant .plus {
+    padding: 2px 7.5px;
+    border: 0 !important;
+}
+
+.product_card.pt-2.pb-3.pr-3.pl-1 {
+    padding-right: 0 !important;
+}
+
+.all-products-card {
+    padding: 0 !important;
+}
+
+.all-search-inputs,
+.all-categories-card {
+    padding-left: 0 !important;
+}
+
+.product.product-side-big {
+    margin-right: 0 !important;
+}
+
+.product .op .remove {
+    margin-right: 5px;
+    margin-top: 20px !important;
+}
+
+.product_card .inner .product_content {
+    padding-right: 0 !important;
+}
+
+
+/* .is-active .slide__title .title-line span {
+    text-align: right !important;
+    float: right !important;
+} */
+
+.slides-nav {
+    left: -5%;
+}
+
+.slides-nav__nav {
+    right: -70px;
+    transform: rotate(360deg);
+}
+
+.slides-nav button {
+    transform: rotate(90deg);
+    margin: 15px 23px;
+}
+
+.color-size {
+    float: right !important;
+}
+
+
+/* Media Query */
+
+@media (max-width: 575.98px) {
+    .input-search .input-text {
+        width: 86% !important;
+    }
+    .product-sidebar {
+        top: 10%;
+        width: 80%;
+        border: 1px solid var(--logo-placeholder-font-color);
+        -webkit-transform: translateX(-24%);
+        -ms-transform: translateX(-24%);
+        transform: translateX(-24%);
+    }
+    .product_content .heading {
+        text-align: right !important;
+        float: left;
+        margin-left: -10px;
+    }
+    .sizes-large {
+        float: left !important;
+    }
+    .color-size {
+        float: left !important;
+    }
+    .modal-content .modal-header .img-special-product img {
+        -webkit-transform: translate(229%, -68px);
+        -ms-transform: translate(229%, -68px);
+        transform: translate(229%, -68px);
+    }
+    .modal.modal-right .modal-dialog {
+        top: 165px;
+        border-bottom-left-radius: 14px !important;
+    }
+    .navbar-brand {
+        margin-left: 0 !important;
+    }
+    .all-search-inputs {
+        padding-right: 13px !important;
+    }
+    .all-categories-card {
+        padding-right: 12px !important;
+    }
+    .cart-button-cart {
+        padding-right: 20px !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .input-search .input-text {
+        width: 94% !important;
+    }
+    .product-sidebar {
+        -webkit-transform: translateX(-23%);
+        -ms-transform: translateX(-23%);
+        transform: translateX(-23%);
+        border-left: 1px solid var(--logo-placeholder-font-color);
+    }
+    .navbar-brand {
+        margin-left: 0 !important;
+    }
+    .cart-button-cart {
+        padding-right: 48px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .product-sidebar {
+        -webkit-transform: translateX(-56%);
+        -ms-transform: translateX(-56%);
+        transform: translateX(-56%);
+        border-left: 1px solid var(--logo-placeholder-font-color);
+    }
+    .add-customer .input-search {
+        margin-right: 10px !important;
+    }
+    .input-search .input-text {
+        width: 92%;
+    }
+    .navbar-brand {
+        margin-left: 0 !important;
+    }
+    .cart-button-cart {
+        padding-right: 25px !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .input-search .input-text {
+        width: 95% !important;
+    }
+    .login-side form .footer-login {
+        width: 61% !important;
+    }
+}
+
+@media (min-width: 54em) {
+    .slides-nav {
+        right: 98%;
+    }
+}
+
+@media (min-width:1200px) {
+    .login-side form .footer-login {
+        width: 52% !important;
+    }
+}
+
+
+/* Start Products Animations*/
+
+.JScallHover:hover {
+    -webkit-transform: scale(1.01) !important;
+    -ms-transform: scale(1.01) !important;
+    transform: scale(1.01) !important;
+}
